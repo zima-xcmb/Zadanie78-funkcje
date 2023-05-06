@@ -30,7 +30,7 @@ bool liczba1(int a)
 }
 bool liczba9(int b)
 {
-	if (b / 1 == 1 && b % 1 == 0) {
+	if (b / 9 == 1 && b % 9 == 0) {
 		return true;
 	}
 	return false;
@@ -53,8 +53,8 @@ int main()
 {
 	int licznik1, licznik9, zle, cyfra, i2;
 	for (int i = 2; i <= 12000; i++) {
+		i2 = i;
 		if (cz1(i)) {
-			i2 = i;
 			licznik1 = 0;
 			licznik9 = 0;
 			zle = 0;

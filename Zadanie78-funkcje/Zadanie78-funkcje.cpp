@@ -71,7 +71,7 @@ int main()
 				}
 				i2 /= 10;
 			}
-			if (licznik1 == 1 && licznik9 == 1 && zle == 0) {
+			if (wynik(licznik1,licznik9,zle)) {
 				cout << i << endl;
 			}
 		}
